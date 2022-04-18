@@ -1,4 +1,4 @@
-# VM Monitoring #6 - Creating a Python script to use Sensu API
+# VM Monitoring #5 - Creating a Python script to use Sensu API
 
 ## Using Sensu API to view our events
 
