@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: geodb
+    image: 1ee973e26c65 #postgres
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - /var/lib/docker/volumes/geodb/_data:/var/lib/postgresql/data
+    restart: always
+
+  tomcat:
+    container_name: geocitizen
+    image: tomcat:9.0.62-jdk11-temurin-focal
+    ports:
+      - "8080:8080"
+      - "25:25"
+    volumes:
+      - /home/dim.ivanchenko/Geocit134/target/geo:/usr/local/tomcat/webapps
+    restart: always
+
+volumes:
+  geodb:
