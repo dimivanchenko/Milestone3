@@ -1,4 +1,4 @@
-# VM Monitoring #5 - Receiving email alerts
+# VM Monitoring #4 - Receiving email alerts
 
 So far we have been either looking at the sensu dashboard to see the state of the system
 or we have been using `sensuctl event list` for that. But this is not very practical as
