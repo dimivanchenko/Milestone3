@@ -1,4 +1,4 @@
-# VM Monitoring #4 - Monitoring a webserver using Sensu
+# VM Monitoring #3 - Monitoring a webserver using Sensu
 
 Monitoring only system resources is not enough, it is possible for our services to fail without
 any problem with system resources. Example, Nginx could crash, MySQL could stop working etc even when

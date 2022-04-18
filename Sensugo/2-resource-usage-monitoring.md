@@ -1,10 +1,4 @@
-# VM Monitoring #3 - System Resource Monitoring Using Sensu
-
-In the [monitoring introduction video](30-monitoring-1-infrastructure-monitoring-intro.md) we discussed about what are
-the different types of resources we should be monitoring to keep an eye on the state of our systems.
-These includes CPU, Memory, Disk usage etc.
-
-In this one we will go ahead and actually implement these monitoring using Sensu
+# VM Monitoring #2 - System Resource Monitoring Using Sensu
 
 ## Some sensu glossary
 
